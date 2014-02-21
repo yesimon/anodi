@@ -38,6 +38,7 @@ setup(
     description='A decorator-based backport of PEP-3107 function annotations to Python 2.7, and related tools.',
     long_description=open('README.rst').read(),
 
+    include_package_data=True,
     install_requires=requirements.get('install', None),
     tests_require=requirements.get('extras', {}).get('tests', None),
     extras_require=requirements.get('extras', None),
